@@ -10,11 +10,14 @@
 		8E149F48247A6F58004304F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E149F47247A6F58004304F9 /* AppDelegate.swift */; };
 		8E149F4A247A6F58004304F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E149F49247A6F58004304F9 /* SceneDelegate.swift */; };
 		8E149F4C247A6F58004304F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E149F4B247A6F58004304F9 /* ViewController.swift */; };
-		8E149F4F247A6F58004304F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E149F4D247A6F58004304F9 /* Main.storyboard */; };
 		8E149F51247A6F59004304F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E149F50247A6F59004304F9 /* Assets.xcassets */; };
 		8E149F54247A6F59004304F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E149F52247A6F59004304F9 /* LaunchScreen.storyboard */; };
 		8E149F5F247A6F59004304F9 /* multiple_select_tableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E149F5E247A6F59004304F9 /* multiple_select_tableTests.swift */; };
 		8E149F6A247A6F59004304F9 /* multiple_select_tableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E149F69247A6F59004304F9 /* multiple_select_tableUITests.swift */; };
+		8E149F79247A7B14004304F9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E149F78247A7B14004304F9 /* ViewController.xib */; };
+		8E149F7D247A9B65004304F9 /* MultipleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E149F7C247A9B65004304F9 /* MultipleTableView.swift */; };
+		8E149F7F247A9B84004304F9 /* MultipleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E149F7E247A9B84004304F9 /* MultipleTableViewCell.xib */; };
+		8E149F81247A9B92004304F9 /* MultipleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E149F80247A9B92004304F9 /* MultipleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		8E149F47247A6F58004304F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E149F49247A6F58004304F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8E149F4B247A6F58004304F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E149F4E247A6F58004304F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E149F50247A6F59004304F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E149F53247A6F59004304F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E149F55247A6F59004304F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		8E149F65247A6F59004304F9 /* multiple-select-tableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multiple-select-tableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E149F69247A6F59004304F9 /* multiple_select_tableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiple_select_tableUITests.swift; sourceTree = "<group>"; };
 		8E149F6B247A6F59004304F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E149F78247A7B14004304F9 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8E149F7C247A9B65004304F9 /* MultipleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableView.swift; sourceTree = "<group>"; };
+		8E149F7E247A9B84004304F9 /* MultipleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultipleTableViewCell.xib; sourceTree = "<group>"; };
+		8E149F80247A9B92004304F9 /* MultipleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,8 @@
 			children = (
 				8E149F47247A6F58004304F9 /* AppDelegate.swift */,
 				8E149F49247A6F58004304F9 /* SceneDelegate.swift */,
-				8E149F4B247A6F58004304F9 /* ViewController.swift */,
-				8E149F4D247A6F58004304F9 /* Main.storyboard */,
-				8E149F50247A6F59004304F9 /* Assets.xcassets */,
-				8E149F52247A6F59004304F9 /* LaunchScreen.storyboard */,
+				8E149F7A247A7B4C004304F9 /* Screen */,
+				8E149F77247A7A8E004304F9 /* Resouce */,
 				8E149F55247A6F59004304F9 /* Info.plist */,
 			);
 			path = "multiple-select-table";
@@ -126,6 +130,35 @@
 				8E149F6B247A6F59004304F9 /* Info.plist */,
 			);
 			path = "multiple-select-tableUITests";
+			sourceTree = "<group>";
+		};
+		8E149F77247A7A8E004304F9 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				8E149F50247A6F59004304F9 /* Assets.xcassets */,
+				8E149F52247A6F59004304F9 /* LaunchScreen.storyboard */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		8E149F7A247A7B4C004304F9 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8E149F7B247A95B8004304F9 /* View */,
+				8E149F4B247A6F58004304F9 /* ViewController.swift */,
+				8E149F78247A7B14004304F9 /* ViewController.xib */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		8E149F7B247A95B8004304F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E149F7C247A9B65004304F9 /* MultipleTableView.swift */,
+				8E149F7E247A9B84004304F9 /* MultipleTableViewCell.xib */,
+				8E149F80247A9B92004304F9 /* MultipleTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E149F54247A6F59004304F9 /* LaunchScreen.storyboard in Resources */,
+				8E149F7F247A9B84004304F9 /* MultipleTableViewCell.xib in Resources */,
 				8E149F51247A6F59004304F9 /* Assets.xcassets in Resources */,
-				8E149F4F247A6F58004304F9 /* Main.storyboard in Resources */,
+				8E149F79247A7B14004304F9 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E149F4C247A6F58004304F9 /* ViewController.swift in Sources */,
+				8E149F7D247A9B65004304F9 /* MultipleTableView.swift in Sources */,
+				8E149F81247A9B92004304F9 /* MultipleTableViewCell.swift in Sources */,
 				8E149F48247A6F58004304F9 /* AppDelegate.swift in Sources */,
 				8E149F4A247A6F58004304F9 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8E149F4D247A6F58004304F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E149F4E247A6F58004304F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8E149F52247A6F59004304F9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
