@@ -21,6 +21,8 @@
 		8E149F7F247A9B84004304F9 /* MultipleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E149F7E247A9B84004304F9 /* MultipleTableViewCell.xib */; };
 		8E149F81247A9B92004304F9 /* MultipleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E149F80247A9B92004304F9 /* MultipleTableViewCell.swift */; };
 		8E2822C6247C0AA300D657E9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2822C5247C0AA300D657E9 /* R.generated.swift */; };
+		8EB1CAAA247D418E004D48FB /* KindModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1CAA9247D418E004D48FB /* KindModel.swift */; };
+		8EB1CAAD247D477D004D48FB /* MultipleTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1CAAC247D477D004D48FB /* MultipleTableViewModel.swift */; };
 		A84AAA754029A6219222D0A5 /* Pods_multiple_select_tableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FABCC94B65F8CBF499B8CA6 /* Pods_multiple_select_tableUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,8 @@
 		8E149F7E247A9B84004304F9 /* MultipleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultipleTableViewCell.xib; sourceTree = "<group>"; };
 		8E149F80247A9B92004304F9 /* MultipleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableViewCell.swift; sourceTree = "<group>"; };
 		8E2822C5247C0AA300D657E9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = "multiple-select-table/R.generated.swift"; sourceTree = SOURCE_ROOT; };
+		8EB1CAA9247D418E004D48FB /* KindModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindModel.swift; sourceTree = "<group>"; };
+		8EB1CAAC247D477D004D48FB /* MultipleTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTableViewModel.swift; sourceTree = "<group>"; };
 		EFFD312E65BB10E448D42F72 /* Pods_multiple_select_tableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multiple_select_tableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE80845E351D6AF858631EFB /* Pods_multiple_select_table.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multiple_select_table.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,6 +168,8 @@
 		8E149F7A247A7B4C004304F9 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				8EB1CAAB247D4761004D48FB /* ViewModel */,
+				8EB1CAA8247D3E97004D48FB /* Model */,
 				8E149F7B247A95B8004304F9 /* View */,
 				8E149F4B247A6F58004304F9 /* ViewController.swift */,
 				8E149F78247A7B14004304F9 /* ViewController.xib */,
@@ -179,6 +185,22 @@
 				8E149F80247A9B92004304F9 /* MultipleTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8EB1CAA8247D3E97004D48FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1CAA9247D418E004D48FB /* KindModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EB1CAAB247D4761004D48FB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1CAAC247D477D004D48FB /* MultipleTableViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		A4B094DF55357CCC90FC0973 /* Frameworks */ = {
@@ -447,11 +469,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E149F4C247A6F58004304F9 /* ViewController.swift in Sources */,
+				8EB1CAAA247D418E004D48FB /* KindModel.swift in Sources */,
 				8E149F7D247A9B65004304F9 /* MultipleTableView.swift in Sources */,
 				8E149F81247A9B92004304F9 /* MultipleTableViewCell.swift in Sources */,
 				8E149F48247A6F58004304F9 /* AppDelegate.swift in Sources */,
 				8E149F4A247A6F58004304F9 /* SceneDelegate.swift in Sources */,
 				8E2822C6247C0AA300D657E9 /* R.generated.swift in Sources */,
+				8EB1CAAD247D477D004D48FB /* MultipleTableViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

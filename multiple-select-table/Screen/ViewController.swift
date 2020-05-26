@@ -9,12 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var tableView: MultipleTableView!
+    
+    var viewModel: MultipleTableViewModel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewModel = MultipleTableViewModel()
+        tableView.kinds = viewModel?.Kinds ?? []
     }
-
-
 }
 

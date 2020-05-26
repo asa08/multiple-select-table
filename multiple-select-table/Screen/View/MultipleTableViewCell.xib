@@ -29,6 +29,9 @@
                     <constraint firstAttribute="bottom" secondItem="g0R-Jh-m36" secondAttribute="bottom" id="tHK-Pk-4lp"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="g0R-Jh-m36" id="fJf-qQ-HvI"/>
+            </connections>
             <point key="canvasLocation" x="13" y="-25"/>
         </tableViewCell>
     </objects>
