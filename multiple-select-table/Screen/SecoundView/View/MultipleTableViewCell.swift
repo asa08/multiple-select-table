@@ -21,7 +21,7 @@ class MultipleTableViewCell: UITableViewCell {
     
     private func initLabel() {
         label.font = .systemFont(ofSize: 15)
-        label.textColor = .darkGray
+        label.textColor = .label
         label.text = kind?.name
     }
 }

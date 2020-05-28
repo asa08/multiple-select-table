@@ -16,8 +16,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setNavigation()
         viewModel = MultipleTableViewModel()
         tableView.kinds = viewModel?.Kinds ?? []
+    }
+    
+    private func setNavigation() {
+        title = "ねこのしゅるい"
     }
 }
 

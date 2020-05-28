@@ -168,9 +168,7 @@
 		8E149F7A247A7B4C004304F9 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				8EB1CAAB247D4761004D48FB /* ViewModel */,
-				8EB1CAA8247D3E97004D48FB /* Model */,
-				8E149F7B247A95B8004304F9 /* View */,
+				8EB1CAB3247F388B004D48FB /* SecoundView */,
 				8E149F4B247A6F58004304F9 /* ViewController.swift */,
 				8E149F78247A7B14004304F9 /* ViewController.xib */,
 			);
@@ -201,6 +199,16 @@
 				8EB1CAAC247D477D004D48FB /* MultipleTableViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8EB1CAB3247F388B004D48FB /* SecoundView */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1CAAB247D4761004D48FB /* ViewModel */,
+				8EB1CAA8247D3E97004D48FB /* Model */,
+				8E149F7B247A95B8004304F9 /* View */,
+			);
+			path = SecoundView;
 			sourceTree = "<group>";
 		};
 		A4B094DF55357CCC90FC0973 /* Frameworks */ = {
